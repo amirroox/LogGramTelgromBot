@@ -21,7 +21,7 @@
 
 * * *
 
-<div id="overview">
+<div id="overview" dir="rtl">
 
 🎯 معرفی
 --------
