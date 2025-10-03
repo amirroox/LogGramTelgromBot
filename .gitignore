@@ -1,0 +1,8 @@
+.idea
+.venv
+.env
+identifier.sqlite
+logger_bot.db
+logger_bot.session
+config.py
+default_project_logs.db
