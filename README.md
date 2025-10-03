@@ -1,3 +1,5 @@
+[نسخه فارسی](./README_fa.md)
+
 # LogGram - Telegram Logger Bot 🤖
 
 A professional logging system that sends your project logs directly to Telegram. Monitor your applications in real-time through a simple Telegram bot.
@@ -15,6 +17,8 @@ A professional logging system that sends your project logs directly to Telegram.
 
 ---
 
+<div id="overview">
+
 ## 🎯 Overview
 
 LogGram consists of three main components:
@@ -23,7 +27,11 @@ LogGram consists of three main components:
 2. **Telegram Bot** (`LogGram.py`) - A Telegram bot that fetches logs from your projects and sends them to designated chats
 3. **Client Library** (`ExampleUse.py`) - Example implementation showing how to integrate the logger into your projects
 
+</div>
+
 ---
+
+<div id="features">
 
 ## ✨ Features
 
@@ -37,7 +45,11 @@ LogGram consists of three main components:
 - ⏰ Automatic log cleanup
 - 🔒 Admin-only bot access
 
+</div>
+
 ---
+
+<div id="project-structure">
 
 ## 📁 Project Structure
 
@@ -50,7 +62,11 @@ LogGram/
 └── README.md          # This file
 ```
 
+</div>
+
 ---
+
+<div id="installation">
 
 ## 🚀 Installation
 
@@ -76,7 +92,11 @@ Talk to [@BotFather](https://t.me/BotFather) on Telegram to create a bot and get
 Talk to [@userinfobot](https://t.me/userinfobot) to get your:
 - `ADMIN_USER_ID`
 
+</div>
+
 ---
+
+<div id="configuration">
 
 ## ⚙️ Configuration
 
@@ -89,7 +109,11 @@ BOT_TOKEN = "your_bot_token_here"
 ADMIN_USER_ID = 123456789  # Your Telegram user ID
 ```
 
+</div>
+
 ---
+
+<div id="usage">
 
 ## 📖 Usage
 
@@ -147,7 +171,11 @@ project_logger.error("Database connection failed", tags=["database"])
 project_logger.success("User registered successfully", user_id=123)
 ```
 
+</div>
+
 ---
+
+<div id="api-endpoints">
 
 ## 🔌 API Endpoints
 
@@ -193,7 +221,11 @@ Delete old logs
 ### GET `/health`
 Check API health status
 
+</div>
+
 ---
+
+<div id="examples">
 
 ## 💡 Examples
 
@@ -265,6 +297,8 @@ async def async_task():
             tags=["async", "error"]
         )
 ```
+
+</div>
 
 ---
 
